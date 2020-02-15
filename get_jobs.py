@@ -10,7 +10,7 @@ import time
 from typing import Dict, List
 
 
-def get_github_jobs_data() -> List[Dict]:
+def get_git_jobs_data() -> List[Dict]:
     """retrieve github jobs data in form of a list of dictionaries after json processing"""
     all_data = []
     page = 1
@@ -41,7 +41,7 @@ def save_to_db():
 
 
 def main():
-    data = get_github_jobs_data()
+    data = get_git_jobs_data()
     save_data(data)
 
 

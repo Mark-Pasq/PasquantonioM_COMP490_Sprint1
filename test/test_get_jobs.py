@@ -11,7 +11,7 @@ import pytest
 @pytest.fixture
 def get_data():
     import get_jobs
-    return get_jobs.get_github_jobs_data()
+    return get_jobs.get_git_jobs_data()
 
 
 def test_my_jobs_dict(get_data):
