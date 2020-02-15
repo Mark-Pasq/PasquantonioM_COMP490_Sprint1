@@ -2,7 +2,7 @@
 
 # Mark Pasquantonio
 # Senior Design and Dev COMP490
-# Project 1 JobsAssignment
+# Project 1 JobsAssignment Sprint 1
 # Filename: get_jobs.py
 
 import requests
