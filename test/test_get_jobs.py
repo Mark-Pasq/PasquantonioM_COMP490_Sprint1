@@ -6,6 +6,7 @@
 # Filename: test_get_jobs.py
 
 import pytest
+import get_jobs
 
 
 @pytest.fixture

@@ -11,7 +11,9 @@ from typing import Dict, List
 
 
 def get_git_jobs_data() -> List[Dict]:
-    """retrieve github jobs data in form of a list of dictionaries after json processing"""
+    """retrieve github jobs data in form of a list of dictionaries after json processing
+    :return:
+    """
     all_data = []
     page = 1
     more_data = True
