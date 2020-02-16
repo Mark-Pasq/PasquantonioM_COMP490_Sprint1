@@ -24,7 +24,6 @@ def create_connection():
         return connection
     except Error as e:
         print(e)
-
     return connection
 
 
@@ -39,22 +38,6 @@ def create_table(con, create_table_sql):
         c.execute(create_table_sql)
     except Error as e:
         print(e)
-
-
-# def delete_unused_table():
-#     c = sqlite3.connect('jobs.db')
-#     cursor = c.cursor()
-#     droptablestatement1 = 'DROP TABLE IF EXISTS main.Job_List'
-#     cursor.execute(droptablestatement1)
-#
-#     droptablestatement2 = 'DROP TABLE IF EXISTS main.employees'
-#     cursor.execute(droptablestatement2)
-#
-#     c.commit()
-#     c.close()
-#
-#
-# delete_unused_table()
 
 
 def main():
