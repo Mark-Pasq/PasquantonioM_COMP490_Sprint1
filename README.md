@@ -3,8 +3,9 @@
 
 # Sprint 1 consists of the setting up and retrieving of the github.com/jobs api.  It had to be converted to
 # a .json file so it could be saved to a text file for use later.  There also had to be two tests written 
-# to confirm that the file was being downloaded and saved to the text file.  The Sprint 1 files will be used 
-# in the Sprint 2 iteration of the project.
+# to confirm that the file was being downloaded and saved to the text file.  All parts of the Sprint worked,
+# including the github actions porting of testing.  The Sprint 1 files will be used in the Sprint 2 
+# iteration of the project.
 
 
 
